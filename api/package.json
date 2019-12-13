@@ -1,0 +1,21 @@
+{
+  "name": "fhemlog-api",
+  "version": "1.0.0",
+  "description": "fhem Backend to get data from db.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.19.*",
+    "express": "4.17.*",
+    "express-validator": "6.3.*",
+    "node-querybuilder": "2.1.*",
+    "moment": "2.24.*",
+    "dotenv": "8.2.*"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.*"
+  }
+}
